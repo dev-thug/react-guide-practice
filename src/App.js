@@ -1,6 +1,7 @@
-import User from "./components/User/User";
+import User from "./components/Users/User";
 import {useState} from "react";
 import NewUser from "./components/NewUser/NewUser";
+import AddUser from "./components/Users/AddUser";
 
 const DUMMY_USER = [
     {
@@ -24,8 +25,7 @@ function App() {
 
     return (
         <div>
-            <NewUser onAddUser={addUserHandler}/>
-            <User items={users}/>
+            <AddUser/>
         </div>
     );
 }
