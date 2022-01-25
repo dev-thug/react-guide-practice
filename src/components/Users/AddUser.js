@@ -2,7 +2,7 @@ import Card from "../UI/Card";
 import classes from "./AddUser.module.css";
 import Button from "../UI/Button";
 import {Fragment, useState} from "react";
-import ErrorModal from "../UI/ErrorModal";
+import ErrorModal from "../../../../../hj-yejin-dev/src/components/UI/ErrorModal";
 
 const AddUser = (props) => {
 
